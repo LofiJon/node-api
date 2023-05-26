@@ -1,0 +1,7 @@
+export const ID = '/:id'
+export const ORDER = '/:order'
+export const ORDER_BY = '/:orderby'
+export const PAGE_NUMBER = '/:pagenumber'
+export const SEARCH = '/:search?'
+export const SIZE = '/:size'
+export const STATUS = '/:status'

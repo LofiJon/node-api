@@ -1,0 +1,27 @@
+{
+   "compilerOptions": {
+      "lib": [
+         "es5",
+         "es6"
+      ],
+      "incremental": true,
+      "rootDirs": ["src", "tests"],
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "dist",
+      "esModuleInterop": true,
+      "baseUrl": "src",
+      "paths": {
+         "@/*": ["*"],
+         "@/tests/*": ["../tests/*"]
+       },
+       "strict": true,
+       "noImplicitOverride": true,
+       "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true
+   },
+   "include": ["src", "tests"]
+}
